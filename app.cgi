@@ -5,6 +5,6 @@ This CGI script runs the Flask-based microblog application.
 """
 
 from wsgiref.handlers import CGIHandler
-from app import app
+from microblog import app
 
 CGIHandler().run(app)
