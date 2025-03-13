@@ -46,11 +46,6 @@ the web page at http://arcturus.local:5001/ (where my iPad had IP address
 
 ```console
 $ flask --app microblog run --host=0.0.0.0 --port=5001
- * Serving Flask app 'microblog.py'
- * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:5001
-Press CTRL+C to quit
 * Serving Flask app 'microblog'
  * Debug mode: off
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
